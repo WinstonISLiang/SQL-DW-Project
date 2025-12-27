@@ -1,4 +1,5 @@
-# SQL Server Medallion Data Warehouse (Bronze → Silver → Gold)
+# SQL Server Medallion Data Warehouse 
+# (Bronze → Silver → Gold)
 
 A reproducible **data engineering** portfolio project that builds a **SQL Server** data warehouse from raw CSV extracts (ERP + CRM), applies **medallion-style** transformations (Bronze → Silver → Gold), and publishes **analytics-ready marts** modeled as a **star schema**.
 
