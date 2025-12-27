@@ -6,6 +6,16 @@ This repository is designed to demonstrate practical DE skills: **repeatable ETL
 
 ---
 
+
+## Project visuals (at a glance)
+
+### Overall architecture (Medallion)
+![Medallion Architecture](docs/data_architecture.png)
+
+### Data flow (Source → Bronze → Silver → Gold)
+![Data Flow](docs/data_flow.png)
+
+---
 ## What this project delivers
 
 - **Bronze layer**: raw ingestion from CSV sources into SQL Server tables (minimal transformation)
@@ -48,6 +58,14 @@ Design goals:
 - clear grain definition
 - BI-friendly naming
 - performant joins for analytical queries
+
+---
+
+### Star schema diagram
+![Star Schema](docs/data_model.png)
+
+### Source integration mapping (ERP + CRM)
+![Integration Model](docs/integration_model.png)
 
 ---
 
